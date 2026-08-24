@@ -2,12 +2,10 @@
 title: "Giải thích dễ hiểu về TCP vs UDP"
 description: "Lấy cảm hứng từ bài viết hay ho của Naman Sisodia trên Medium :v"
 date: 2026-06-06
-categories: [python]
-slug: giai-thich-de-hieu-ve-tcp-udp-http-va-websocket
 ---
 
 > **Bài viết này lấy cảm hứng từ bài viết hay ho của Naman Sisodia trên Medium:** [Understanding TCP, UDP, HTTP, And WebSocket Concepts PART - 1](https://any-one-can-code.medium.com/understanding-tcp-udp-http-and-websocket-concepts-part-1-499f9f751c54). Mình đọc bài này và thấy cách giải thích khá là rõ ràng, dễ hiểu, ko bị quá ngộp các thuật ngữ technical, nên quyết định viết lại bằng tiếng Việt, mở rộng thêm phần HTTP và WebSocket để cho trọn bộ. Mọi công nhận xứng đáng đều thuộc về tác giả gốc!
-![1_GEUhDCOVJVC1dGGBmFcg1Q (1).jpg](6e94ce34-a6fb-40db-b1e7-3aa344c934f7)
+> ⚠️ Ảnh thiếu: **1_GEUhDCOVJVC1dGGBmFcg1Q (1).jpg** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 ## 1. UDP 
@@ -21,14 +19,14 @@ UDP (User Datagram Protocol) là giao thức truyền dữ liệu theo cơ chế
 Ví dụ Server muốn nhắn cho Client câu: *"Mày ổn không?"* Server chuyển câu đó thành các **gói tin (packets)** — mỗi gói tin chứa một mảnh dữ liệu nhỏ — rồi gửi thẳng tới client, không biết là client có sẵn sàng nhận kết nối hay không.
 
 **Happy case:** Client nhận đủ tất cả các gói tin, đọc được câu hoàn chỉnh. 
-![udp-happy.png](d8d68ad3-e0df-4311-bfbd-05bf63481761)
+> ⚠️ Ảnh thiếu: **udp-happy.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 **Unhappy case 1 — Mất gói tin:** 
-![udp-sad1.png](1eda0432-ff56-4b9e-8789-9ad337f82bbe)
+> ⚠️ Ảnh thiếu: **udp-sad1.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 **Unhappy case 2 — Nhận lung tung thứ tự:** 
-![udp-sad2.png](2501d3c3-aeab-4222-a770-8c3bd016c76f)
+> ⚠️ Ảnh thiếu: **udp-sad2.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 Và Server? Server không hề biết Client nhận được gì. **Server đã gửi xong và quên luôn.**
 
@@ -50,7 +48,7 @@ UDP được dùng ở đâu?
 TCP (Transmission Control Protocol) là giao thức **hướng kết nối** (connection-oriented). Trước khi truyền data, Server và Client phải kết nối với nhau đã. Sau đó mọi gói tin đều được đánh số, xác nhận, và nếu mất thì gửi lại.
 
 ### Three-Way Handshake
-![Screenshot 2026-06-06 at 18.56.13.png](47b22fbf-7fc1-4a1a-8e06-4da973e0a783)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-06-06 at 18.56.13.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 Đây là bước khởi động bắt buộc của TCP. Nghe phức tạp nhưng thực ra rất đơn giản:
 
@@ -80,4 +78,4 @@ Không cần dùng tool gì cho cái này — đây là đoạn dịch:
 
 Thực ra không có cái nào tốt hơn giữa UDP và TCP cả. Cả hai đều phù hợp với những use case khác nhau. Không có giao thức hoàn hảo nào tồn tại — hay sẽ tồn tại — mà không có giới hạn. UDP phù hợp với các ứng dụng real-time, hạn chế độ trễ, và việc mất hoặc xáo trộn thông tin vẫn có thể chấp nhận được. TCP thì ngược lại — nó đảm bảo dữ liệu được truyền đi chính xác, nên người dùng không cần lo lắng gì về dữ liệu. Bonus cho quả meme:
 
-![1_vjQxkIN0ncEIFKngYiaDPA.jpg](3b37fcdc-f46d-4ff7-8478-d7cad85fa21e)
+> ⚠️ Ảnh thiếu: **1_vjQxkIN0ncEIFKngYiaDPA.jpg** (không có trong dữ liệu export, cần upload lại thủ công)

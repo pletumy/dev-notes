@@ -2,8 +2,6 @@
 title: "JWT, OAuth2, IdP, Access Token — Phân biệt các khái niệm trong Authentication & Authorization"
 description: "Mỗi lần làm tính năng login là lại gặp một đống thuật ngữ: OAuth2, JWT, IdP, access token, refresh token, SSO... "
 date: 2026-05-31
-categories: [python]
-slug: jwt-oauth2-idp-access-token-phan-biet-cac-khai-niem-trong-authentication-authorization
 ---
 
 Mỗi lần làm tính năng login là lại gặp một đống thuật ngữ: OAuth2, JWT, IdP, access token, refresh token, SSO... Bài này mình sẽ phân biệt từng khái niệm, vẽ ra luồng thực tế, và chỉ rõ chúng liên quan với nhau như thế nào.
@@ -12,7 +10,7 @@ Mỗi lần làm tính năng login là lại gặp một đống thuật ngữ: 
 
 **IdP** là hệ thống xác minh danh tính người dùng và phát token. Google, GitHub, Facebook, Okta, Auth0, Keycloak, Authentik... đều là IdP.
 
-![Screenshot 2026-05-31 at 23.14.15.png](a4e58986-0bc6-48e5-8fa3-bc903a50b3c3)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-31 at 23.14.15.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 **① Click "Login with Google"**
 Bạn bấm nút. App nói: "tao không tự xác minh mày, tao gửi mày sang Google."
@@ -47,7 +45,7 @@ App dựa `id_token` ra biết bạn là ai, tạo session, trả cookie về tr
 
 **OAuth2** là một *giao thức* định nghĩa cách một ứng dụng xin quyền truy cập tài nguyên thay mặt người dùng. Giao diện thường thấy của Google OAuth2:
 
-![authz-single-consent.png](a8a4e97f-3285-4ffd-99d0-ca18b3c36fd8)
+> ⚠️ Ảnh thiếu: **authz-single-consent.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 Ví dụ thực tế: App muốn truy cập Google Calendar của bạn, nó sẽ redirect sang UI của Google, Google confirm viuws user như ảnh: "App X muốn đọc calendar của bạn, đồng ý không?" Nếu user đồng ý, Google cấp token cho app và app dùng token đó để gọi Google Calendar API
 
@@ -141,7 +139,7 @@ User login vào Google một lần
 Trong enterprise: Okta/Azure AD là IdP trung tâm, tất cả app (Slack, GitHub, Jira...) đều delegate identity về đó.
 
 ## Tóm tắt quan hệ giữa các khái niệm
-![Screenshot 2026-05-31 at 23.37.56.png](b6df4b07-45f3-418a-892b-bfeafca1372f)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-31 at 23.37.56.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 OAuth2          → Giao thức ủy quyền

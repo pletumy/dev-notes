@@ -3,8 +3,6 @@ title: "Chọn Cache Pattern Phù Hợp Với App ?"
 description: "Chắc hẳn ai làm backend cũng từng gặp cảnh hệ thống đang chạy ngon lành, tự dưng traffic tăng một chút là database bắt đầu \"thở oxy\". Nhiều trường hợp, vấn đề không nằm ở DB hay server mà đơn giản là chưa tận dụng cache đúng cách.
 "
 date: 2026-06-03
-categories: [python]
-slug: chon-cache-pattern-phu-hop-voi-app
 ---
 
 Chắc hẳn ai làm backend cũng từng gặp cảnh hệ thống đang chạy ngon lành, tự dưng traffic tăng một chút là DB bắt đầu "thở oxy". Nhiều trường hợp, vấn đề không nằm ở DB hay server mà đơn giản là chưa tận dụng cache đúng cách.
@@ -14,7 +12,7 @@ Nhưng cache không phải cứ thêm Redis vào là xong. Mỗi cách sử dụ
 Trong bài viết này, mình sẽ đi qua 4 cache pattern phổ biến nhất và những trường hợp thực tế mà chúng thường được sử dụng.
 
 ## 1. Cache Aside
-![cache aside.png](3fd35428-83f5-42fc-804e-c7525042313c)
+> ⚠️ Ảnh thiếu: **cache aside.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 Đây có lẽ là pattern quen thuộc nhất với đa số developer.
@@ -50,7 +48,7 @@ Với ví dụ trên, chẳng hạn user update lại thông tin cá nhân vào 
 
 Read Through có cách hoạt động khá giống Cache Aside nhưng trách nhiệm được chuyển sang cache layer. Thay vì app tự query từ DB khi cache miss thì cache sẽ đi query, app chỉ giao tiếp với cache.
 
-![read through.png](3ba072ef-31b0-404c-bbfe-36bb9dcce2b7)
+> ⚠️ Ảnh thiếu: **read through.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 Luồng xử lý sẽ là:
@@ -79,7 +77,7 @@ Lần truy cập đầu tiên chắc chắn sẽ bị cache miss. Ngoài ra, Rea
 
 Nếu Cache Aside và Read Through chủ yếu tối ưu cho việc đọc thì Write Back lại tập trung vào tốc độ ghi.
 
-![write back.png](02c939bf-1297-42cd-8570-415e9fe7882f)
+> ⚠️ Ảnh thiếu: **write back.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 Thay vì ghi xuống DB ngay lập tức, hệ thống:
@@ -114,7 +112,7 @@ Vì vậy Write Back thường cần kết hợp với persistence hoặc replic
 
 ## 4. Write Around – Ghi thẳng vào DB, cache khi thực sự cần
 
-![write around.png](3a504ca2-6921-4de5-8124-ad6d382daf59)
+> ⚠️ Ảnh thiếu: **write around.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 Write Around có triết lý khá đơn giản:
@@ -143,7 +141,7 @@ Nếu cơ chế invalidate không tốt, hệ thống vẫn có thể gặp vấ
 
 ## So sánh nhanh
 
-![Screenshot 2026-06-03 at 17.08.06.png](753222c5-1caa-4a12-b373-dc1822ca89cb)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-06-03 at 17.08.06.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 ## Kết luận
 

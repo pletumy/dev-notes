@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Convert exported posts CSV into Jekyll _posts/_drafts markdown files."""
+"""Convert exported posts CSV into VitePress markdown pages under docs/notes/."""
 import csv
+import json
 import re
 import sys
 import unicodedata
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-POSTS_DIR = REPO_ROOT / "_posts"
-DRAFTS_DIR = REPO_ROOT / "_drafts"
+NOTES_DIR = REPO_ROOT / "docs" / "notes"
+SIDEBAR_PATH = REPO_ROOT / "docs" / ".vitepress" / "sidebar.json"
 
 
 def slugify(text):
@@ -24,26 +25,36 @@ def yaml_quote(text):
 
 
 def parse_date(created_at):
-    # "2026-05-23 19:49:11.184 +0700" -> ("2026-05-23", full string for front matter)
-    date_part = created_at.strip().split(" ")[0]
-    return date_part
+    return created_at.strip().split(" ")[0]
 
 
-def build_front_matter(row, slug):
+UUID_IMAGE_RE = re.compile(
+    r"!\[([^\]]*)\]\(([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\)"
+)
+
+
+def strip_missing_images(content, missing_images):
+    def replace(match):
+        alt = match.group(1) or "ảnh"
+        missing_images.append(alt)
+        return f"> ⚠️ Ảnh thiếu: **{alt}** (không có trong dữ liệu export, cần upload lại thủ công)"
+
+    return UUID_IMAGE_RE.sub(replace, content)
+
+
+def build_front_matter(row):
     lines = ["---"]
     lines.append(f"title: {yaml_quote(row['title'])}")
     if row.get("excerpt"):
         lines.append(f"description: {yaml_quote(row['excerpt'])}")
     lines.append(f"date: {parse_date(row['created_at'])}")
-    if row.get("language"):
-        lines.append(f"categories: [{row['language']}]")
-    lines.append(f"slug: {slug}")
     lines.append("---")
     return "\n".join(lines)
 
 
 def convert(csv_path):
     seen_slugs = {}
+    sidebar_items = []
     published_count = 0
     draft_count = 0
 
@@ -52,11 +63,13 @@ def convert(csv_path):
         for row in reader:
             if row.get("deleted_at"):
                 continue
+            if row.get("status") == "draft":
+                draft_count += 1
+                continue
 
             title = row["title"]
             slug = row.get("slug") or slugify(title)
 
-            # de-dupe slugs (e.g. draft + published copy of the same title)
             base_slug = slug
             n = 2
             while slug in seen_slugs:
@@ -64,27 +77,33 @@ def convert(csv_path):
                 n += 1
             seen_slugs[slug] = True
 
-            date = parse_date(row["created_at"])
-            front_matter = build_front_matter(row, slug)
-            body = front_matter + "\n\n" + row["content"].strip() + "\n"
+            missing_images = []
+            content = strip_missing_images(row["content"].strip(), missing_images)
+            if missing_images:
+                print(f"  ! {slug}: {len(missing_images)} missing image(s)")
 
-            if row.get("status") == "draft":
-                out_path = DRAFTS_DIR / f"{slug}.md"
-                draft_count += 1
-            else:
-                out_path = POSTS_DIR / f"{date}-{slug}.md"
-                published_count += 1
+            front_matter = build_front_matter(row)
+            body = front_matter + "\n\n" + content + "\n"
 
+            out_path = NOTES_DIR / f"{slug}.md"
             out_path.write_text(body, encoding="utf-8")
+            sidebar_items.append({"text": title, "link": f"/notes/{slug}"})
+            published_count += 1
             print(f"wrote {out_path.relative_to(REPO_ROOT)}")
 
-    print(f"\nDone: {published_count} published, {draft_count} draft(s) skipped from build.")
+    sidebar_items.sort(key=lambda x: x["text"])
+    SIDEBAR_PATH.write_text(
+        json.dumps([{"text": "Notes", "items": sidebar_items}], ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    print(f"wrote {SIDEBAR_PATH.relative_to(REPO_ROOT)}")
+    print(f"\nDone: {published_count} published, {draft_count} draft(s) skipped.")
 
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print(f"usage: {sys.argv[0]} <path-to-posts.csv>")
         sys.exit(1)
-    POSTS_DIR.mkdir(exist_ok=True)
-    DRAFTS_DIR.mkdir(exist_ok=True)
+    NOTES_DIR.mkdir(parents=True, exist_ok=True)
+    SIDEBAR_PATH.parent.mkdir(parents=True, exist_ok=True)
     convert(sys.argv[1])

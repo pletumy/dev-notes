@@ -1,8 +1,6 @@
 ---
 title: "Bastion Host — Kết nối vào mạng nội bộ AWS"
 date: 2026-05-29
-categories: [javascript]
-slug: bastion-host-ket-noi-vao-mang-noi-bo-aws
 ---
 
 ## Câu chuyện thực tế
@@ -30,7 +28,7 @@ Con EC2 đó chính là **Bastion Host**.
 
 Bastion Host (hay Jump Server) là một server đặc biệt nằm ở vùng DMZ — có thể truy cập từ internet, nhưng đóng vai trò **cửa ngõ duy nhất** để vào hạ tầng nội bộ.
 
-![ChatGPT Image May 29, 2026, 03_31_40 PM.png](f4510938-6f0f-4029-a984-ce7f57669371)
+> ⚠️ Ảnh thiếu: **ChatGPT Image May 29, 2026, 03_31_40 PM.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
 ## Cách SSH Port Forwarding hoạt động
@@ -47,7 +45,7 @@ Máy tính của bạn sẽ lắng nghe port `5432`. Mọi kết nối tới `lo
 
 **Bastion EC2 — Inbound:**
 
-![Screenshot 2026-05-29 at 15.36.50.png](608033ee-d3cd-4b98-827d-e354ff0c72da)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-29 at 15.36.50.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 **RDS — Inbound:**
 

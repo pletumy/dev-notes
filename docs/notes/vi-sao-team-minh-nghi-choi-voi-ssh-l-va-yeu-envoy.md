@@ -2,8 +2,6 @@
 title: "Từ ssh -L đến TCP Tunnel Manager — và vì sao Envoy là mảnh ghép còn thiếu"
 description: "Tụi mình thay ssh -L bằng một con proxy dựa trên Envoy: quản lý tunnel qua UI web, thêm bớt thoải mái mà không cần restart — ai trong team cũng dùng được, kể cả người không rành terminal."
 date: 2026-05-29
-categories: [javascript]
-slug: vi-sao-team-minh-nghi-choi-voi-ssh-l-va-yeu-envoy
 ---
 
 # Hành trình khai tử cái lệnh `ssh -L` trong team mình

@@ -1,8 +1,6 @@
 ---
 title: "Rate Limiting trong FastAPI — Từ \"Không Có Gì\" Đến Production-Ready (Phần 1)"
 date: 2026-05-23
-categories: [python]
-slug: rate-limiting-trong-fastapi-tu-khong-co-gi-en-production-ready-phan-1
 ---
 
 Hôm nay mình sẽ chia sẻ về cách implement rate limiting cho blog cá nhân của mình — một thứ mà lúc đầu mình nghĩ "blog cá nhân cần gì rate limiting", nhưng sau khi chạy thử load test thì... ừ thôi implement đi cho chắc.
@@ -17,13 +15,7 @@ echo "GET https://api.test.com/api/v1/posts/" | vegeta attack -rate=200/s -durat
 
 Kết quả:
 
- ![Screenshot 2026-05-23 at 14.29.34.png](0ed3e3fe-9b71-45b0-9e27-29c5fa1d826b)
-
-```
-Requests      [total, rate, throughput]         2000, 200.10, 79.66
-Latencies     [min, mean, 50, 90, 95, 99, max]  130.834µs, 11.588s, 13.94s, 14.731s, 16.188s, 18.89s, 20.299s
-Success       [ratio]                           97.10%
-```
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-23 at 14.29.34.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 **p50 là 13.9 giây.** Tức là một nửa số requests mất gần 14 giây mới có response. Trộm vía app không crash, nhưng DB đang ăn 200 requests một cách vô nghĩa và phản hồi rất chậm.
 
@@ -142,7 +134,7 @@ async def list_posts(request: Request, post_service: PostService = Depends(get_p
 
 Đây là câu hỏi mình cũng thắc mắc lúc đầu. `request: Request` không phải để business logic dùng mà SlowAPI cần đọc IP của client để build Redis key:
 
-![Screenshot 2026-05-23 at 14.27.32.png](3f95ead0-55f4-4206-ba26-0255f69fde0b)
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-23 at 14.27.32.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 FastAPI inject `request` vào function, SlowAPI đọc IP từ đó, còn function body không cần đụng đến nó.
 
@@ -183,18 +175,9 @@ Chạy lại cùng test 200 req/s:
 ```bash
 echo "GET https://api.test.com/api/v1/posts/" | vegeta attack -rate=200/s -duration=10s | vegeta report
 ```
-![Screenshot 2026-05-23 at 14.29.27.png](cf376a88-9a99-4906-b013-1dfb96197aa9
-
-
-```
-Requests      [total, rate, throughput]         2000, 200.11, 5.06
-Duration      [total, attack, wait]             19.781s, 9.995s, 9.786s
-Latencies     [min, mean, 50, 90, 95, 99, max]  211.213µs, 10.073s, 10.625s, 11.162s, 11.211s, 11.285s, 11.516s
-Status Codes  [code:count]                      200:100  429:1857
-```
+> ⚠️ Ảnh thiếu: **Screenshot 2026-05-23 at 14.29.27.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
 **100 requests được phục vụ, 1857 bị chặn với 429.** Đúng bằng limit 100/minute.
-
 
 
 Nhưng để ý: **p50 vẫn là 10.6s**. App trả 429 đúng rồi, nhưng response vẫn chậm. Lý do là Cloudflare đang để requests trong queue trước khi forward về ELB — app xử lý 429 chỉ ~1ms, nhưng request đã nằm chờ ~10s trong Cloudflare queue.

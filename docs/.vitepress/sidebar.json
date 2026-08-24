@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Notes",
+    "items": [
+      {
+        "text": "Bastion Host — Kết nối vào mạng nội bộ AWS",
+        "link": "/notes/bastion-host-ket-noi-vao-mang-noi-bo-aws"
+      },
+      {
+        "text": "Chọn Cache Pattern Phù Hợp Với App ?",
+        "link": "/notes/chon-cache-pattern-phu-hop-voi-app"
+      },
+      {
+        "text": "Giải thích dễ hiểu về TCP vs UDP",
+        "link": "/notes/giai-thich-de-hieu-ve-tcp-udp-http-va-websocket"
+      },
+      {
+        "text": "JWT, OAuth2, IdP, Access Token — Phân biệt các khái niệm trong Authentication & Authorization",
+        "link": "/notes/jwt-oauth2-idp-access-token-phan-biet-cac-khai-niem-trong-authentication-authorization"
+      },
+      {
+        "text": "Rate Limiting trong FastAPI — Từ \"Không Có Gì\" Đến Production-Ready (Phần 1)",
+        "link": "/notes/rate-limiting-trong-fastapi-tu-khong-co-gi-en-production-ready-phan-1"
+      },
+      {
+        "text": "Từ ssh -L đến TCP Tunnel Manager — và vì sao Envoy là mảnh ghép còn thiếu",
+        "link": "/notes/vi-sao-team-minh-nghi-choi-voi-ssh-l-va-yeu-envoy"
+      }
+    ]
+  }
+]
