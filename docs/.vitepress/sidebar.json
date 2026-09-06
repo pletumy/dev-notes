@@ -27,5 +27,14 @@
         "link": "/notes/vi-sao-team-minh-nghi-choi-voi-ssh-l-va-yeu-envoy"
       }
     ]
+  },
+  {
+    "text": "Astro",
+    "items": [
+      {
+        "text": "Astro",
+        "link": "/astro/"
+      }
+    ]
   }
 ]

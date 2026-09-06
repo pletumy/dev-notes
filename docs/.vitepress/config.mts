@@ -8,7 +8,10 @@ export default defineConfig({
   base: "/dev-notes/",
 
   themeConfig: {
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Astro", link: "/astro/" },
+    ],
     sidebar,
     search: {
       provider: "local",

@@ -92,8 +92,15 @@ def convert(csv_path):
             print(f"wrote {out_path.relative_to(REPO_ROOT)}")
 
     sidebar_items.sort(key=lambda x: x["text"])
+
+    other_sections = []
+    if SIDEBAR_PATH.exists():
+        existing = json.loads(SIDEBAR_PATH.read_text(encoding="utf-8"))
+        other_sections = [section for section in existing if section.get("text") != "Notes"]
+
+    sidebar = [{"text": "Notes", "items": sidebar_items}] + other_sections
     SIDEBAR_PATH.write_text(
-        json.dumps([{"text": "Notes", "items": sidebar_items}], ensure_ascii=False, indent=2) + "\n",
+        json.dumps(sidebar, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     print(f"wrote {SIDEBAR_PATH.relative_to(REPO_ROOT)}")
