@@ -25,6 +25,46 @@
       {
         "text": "Từ ssh -L đến TCP Tunnel Manager — và vì sao Envoy là mảnh ghép còn thiếu",
         "link": "/notes/vi-sao-team-minh-nghi-choi-voi-ssh-l-va-yeu-envoy"
+      },
+      {
+        "text": "SSR vs CSR",
+        "link": "/notes/ssr-vs-csr"
+      },
+      {
+        "text": "Cloud vs On-Premises",
+        "link": "/notes/cloud_vs_on_premises"
+      },
+      {
+        "text": "PostgreSQL trên AWS: EC2 vs RDS vs Aurora",
+        "link": "/notes/aurora_vs_rds"
+      },
+      {
+        "text": "Các loại Storage trên AWS: S3 vs EBS vs EFS",
+        "link": "/notes/aws_storage_types"
+      },
+      {
+        "text": "VPC, Subnet, NACL và Security Group",
+        "link": "/notes/aws_vpc_subnet_sec_group"
+      },
+      {
+        "text": "Network Cache (DNS Cache)",
+        "link": "/notes/cache"
+      },
+      {
+        "text": "Database vs Data Lake vs Data Warehouse",
+        "link": "/notes/database_datalake_datawarehouse"
+      },
+      {
+        "text": "Redis",
+        "link": "/notes/redis"
+      },
+      {
+        "text": "SaaS",
+        "link": "/notes/saas"
+      },
+      {
+        "text": "Semantic Versioning",
+        "link": "/notes/semantic-versoning"
       }
     ]
   },
@@ -46,6 +86,10 @@
       {
         "text": "Bốn Phẩm Chất Trong Chiêm Tinh Học",
         "link": "/astro/note_3"
+      },
+      {
+        "text": "Celestial Condition in Traditional Astrology",
+        "link": "/astro/note_4"
       }
     ]
   }
