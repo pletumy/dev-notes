@@ -3,10 +3,6 @@
     "text": "Notes",
     "items": [
       {
-        "text": "Bastion Host — Kết nối vào mạng nội bộ AWS",
-        "link": "/notes/bastion-host-ket-noi-vao-mang-noi-bo-aws"
-      },
-      {
         "text": "Chọn Cache Pattern Phù Hợp Với App ?",
         "link": "/notes/chon-cache-pattern-phu-hop-voi-app"
       },
@@ -35,18 +31,6 @@
         "link": "/notes/cloud_vs_on_premises"
       },
       {
-        "text": "PostgreSQL trên AWS: EC2 vs RDS vs Aurora",
-        "link": "/notes/aurora_vs_rds"
-      },
-      {
-        "text": "Các loại Storage trên AWS: S3 vs EBS vs EFS",
-        "link": "/notes/aws_storage_types"
-      },
-      {
-        "text": "VPC, Subnet, NACL và Security Group",
-        "link": "/notes/aws_vpc_subnet_sec_group"
-      },
-      {
         "text": "Network Cache (DNS Cache)",
         "link": "/notes/cache"
       },
@@ -65,6 +49,31 @@
       {
         "text": "Semantic Versioning",
         "link": "/notes/semantic-versoning"
+      }
+    ]
+  },
+  {
+    "text": "AWS",
+    "items": [
+      {
+        "text": "Bastion Host — Kết nối vào mạng nội bộ AWS",
+        "link": "/notes/aws/bastion_host"
+      },
+      {
+        "text": "PostgreSQL trên AWS: EC2 vs RDS vs Aurora",
+        "link": "/notes/aws/aurora_vs_rds"
+      },
+      {
+        "text": "Các loại Storage trên AWS: S3 vs EBS vs EFS",
+        "link": "/notes/aws/storage_types"
+      },
+      {
+        "text": "VPC, Subnet, NACL và Security Group",
+        "link": "/notes/aws/vpc_subnet_sec_group"
+      },
+      {
+        "text": "Transit Gateway",
+        "link": "/notes/aws/transit_gateway"
       }
     ]
   },
