@@ -157,6 +157,20 @@
         ]
       },
       {
+        "text": "Gender of planets",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Phần 1: Khái niệm, sign và thang giới tính",
+            "link": "/astro/planets/gender/gender-of-planets-part-1-concepts-signs-and-range"
+          },
+          {
+            "text": "Phần 2: Phase, quadrant, latitude",
+            "link": "/astro/planets/gender/gender-of-planets-part-2-phase-quadrant-latitude"
+          }
+        ]
+      },
+      {
         "text": "Houses",
         "collapsed": true,
         "items": [
