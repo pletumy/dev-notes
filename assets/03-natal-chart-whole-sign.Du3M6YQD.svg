@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" width="760" height="650" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="380.0" y="24.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lá số ví dụ theo whole sign (Asc ≈ 26° Libra, lá số đêm)</text>
+<path d="M220.0 290.0 A160 160 0 0 0 241.4 370.0 L326.3 321.0 A62 62 0 0 1 318.0 290.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M192.0 290.0 A188 188 0 0 0 217.2 384.0 L241.4 370.0 A160 160 0 0 1 220.0 290.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="211.9" y="335.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lib</text>
+<text x="302.7" y="310.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">1</text>
+<path d="M241.4 370.0 A160 160 0 0 0 300.0 428.6 L349.0 343.7 A62 62 0 0 1 326.3 321.0 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M217.2 384.0 A188 188 0 0 0 286.0 452.8 L300.0 428.6 A160 160 0 0 1 241.4 370.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="257.0" y="413.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sco</text>
+<text x="323.4" y="346.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">2</text>
+<path d="M300.0 428.6 A160 160 0 0 0 380.0 450.0 L380.0 352.0 A62 62 0 0 1 349.0 343.7 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M286.0 452.8 A188 188 0 0 0 380.0 478.0 L380.0 450.0 A160 160 0 0 1 300.0 428.6 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="335.0" y="458.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sag</text>
+<text x="359.3" y="367.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">3</text>
+<path d="M380.0 450.0 A160 160 0 0 0 460.0 428.6 L411.0 343.7 A62 62 0 0 1 380.0 352.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M380.0 478.0 A188 188 0 0 0 474.0 452.8 L460.0 428.6 A160 160 0 0 1 380.0 450.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="425.0" y="458.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cap</text>
+<text x="400.7" y="367.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">4</text>
+<path d="M460.0 428.6 A160 160 0 0 0 518.6 370.0 L433.7 321.0 A62 62 0 0 1 411.0 343.7 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M474.0 452.8 A188 188 0 0 0 542.8 384.0 L518.6 370.0 A160 160 0 0 1 460.0 428.6 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="503.0" y="413.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Aqu</text>
+<text x="436.6" y="346.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">5</text>
+<path d="M518.6 370.0 A160 160 0 0 0 540.0 290.0 L442.0 290.0 A62 62 0 0 1 433.7 321.0 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M542.8 384.0 A188 188 0 0 0 568.0 290.0 L540.0 290.0 A160 160 0 0 1 518.6 370.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="548.1" y="335.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Pis</text>
+<text x="457.3" y="310.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">6</text>
+<path d="M540.0 290.0 A160 160 0 0 0 518.6 210.0 L433.7 259.0 A62 62 0 0 1 442.0 290.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M568.0 290.0 A188 188 0 0 0 542.8 196.0 L518.6 210.0 A160 160 0 0 1 540.0 290.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="548.1" y="245.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ari</text>
+<text x="457.3" y="269.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">7</text>
+<path d="M518.6 210.0 A160 160 0 0 0 460.0 151.4 L411.0 236.3 A62 62 0 0 1 433.7 259.0 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M542.8 196.0 A188 188 0 0 0 474.0 127.2 L460.0 151.4 A160 160 0 0 1 518.6 210.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="503.0" y="167.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Tau</text>
+<text x="436.6" y="233.4" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">8</text>
+<path d="M460.0 151.4 A160 160 0 0 0 380.0 130.0 L380.0 228.0 A62 62 0 0 1 411.0 236.3 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M474.0 127.2 A188 188 0 0 0 380.0 102.0 L380.0 130.0 A160 160 0 0 1 460.0 151.4 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="425.0" y="121.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Gem</text>
+<text x="400.7" y="212.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">9</text>
+<path d="M380.0 130.0 A160 160 0 0 0 300.0 151.4 L349.0 236.3 A62 62 0 0 1 380.0 228.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M380.0 102.0 A188 188 0 0 0 286.0 127.2 L300.0 151.4 A160 160 0 0 1 380.0 130.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="335.0" y="121.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Can</text>
+<text x="359.3" y="212.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">10</text>
+<path d="M300.0 151.4 A160 160 0 0 0 241.4 210.0 L326.3 259.0 A62 62 0 0 1 349.0 236.3 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M286.0 127.2 A188 188 0 0 0 217.2 196.0 L241.4 210.0 A160 160 0 0 1 300.0 151.4 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="257.0" y="167.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Leo</text>
+<text x="323.4" y="233.4" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">11</text>
+<path d="M241.4 210.0 A160 160 0 0 0 220.0 290.0 L318.0 290.0 A62 62 0 0 1 326.3 259.0 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M217.2 196.0 A188 188 0 0 0 192.0 290.0 L220.0 290.0 A160 160 0 0 1 241.4 210.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="211.9" y="245.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Vir</text>
+<text x="302.7" y="269.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">12</text>
+<line x1="203.8" y1="375.9" x2="556.2" y2="204.1" stroke="#BA7517" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="193.1" y="381.2" font-size="14" text-anchor="end" font-weight="bold" fill="#BA7517" dominant-baseline="central">Asc</text>
+<text x="288.8" y="103.1" font-size="14" text-anchor="end" font-weight="bold" fill="#BA7517" dominant-baseline="central">MC</text>
+<text x="566.9" y="198.8" font-size="14" text-anchor="start" font-weight="bold" fill="#BA7517" dominant-baseline="central">Dsc</text>
+<text x="471.2" y="476.9" font-size="14" text-anchor="start" font-weight="bold" fill="#BA7517" dominant-baseline="central">IC</text>
+<circle cx="448.1" cy="394.8" r="14" fill="#EF9F27" stroke="#BA7517" stroke-width="2"/>
+<text x="448.1" y="394.8" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Su</text>
+<circle cx="257.3" cy="313.9" r="14" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="2"/>
+<text x="257.3" y="313.9" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Mo</text>
+<circle cx="406.0" cy="412.3" r="14" fill="#C0DD97" stroke="#3B6D11" stroke-width="2"/>
+<text x="406.0" y="412.3" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Me</text>
+<circle cx="353.5" cy="405.0" r="14" fill="#F4C0D1" stroke="#D4537E" stroke-width="2"/>
+<text x="353.5" y="405.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ve</text>
+<circle cx="316.0" cy="421.2" r="14" fill="#F7C1C1" stroke="#E24B4A" stroke-width="2"/>
+<text x="316.0" y="421.2" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ma</text>
+<circle cx="293.2" cy="200.1" r="14" fill="#FAC775" stroke="#BA7517" stroke-width="2"/>
+<text x="293.2" y="200.1" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ju</text>
+<text x="309.2" y="186.1" font-size="11" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Rx</text>
+<circle cx="395.2" cy="165.9" r="14" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="2"/>
+<text x="395.2" y="165.9" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sa</text>
+<text x="411.2" y="151.9" font-size="11" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Rx</text>
+<text x="380.0" y="550.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Đường cam đứt = đường chân trời (nối Asc và Dsc). Sun nằm bên dưới nên đây là lá số ĐÊM.</text>
+<text x="380.0" y="576.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Đúng phe (đêm): Moon, Venus, Mars. Trái phe: Sun, Jupiter, Saturn, Mercury (Mercury mọc trước Sun nên theo phe ngày).</text>
+<text x="380.0" y="602.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Số trong vòng = house whole sign. Vòng ngoài = sign. Uranus, Neptune, Pluto bỏ qua theo cách đọc cổ điển.</text>
+</svg>

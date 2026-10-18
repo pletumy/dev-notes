@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" width="760" height="620" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="380.0" y="26.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Whole sign: cusp luôn là 0° của một sign</text>
+<path d="M220.0 300.0 A160 160 0 0 0 241.4 380.0 L326.3 331.0 A62 62 0 0 1 318.0 300.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M192.0 300.0 A188 188 0 0 0 217.2 394.0 L241.4 380.0 A160 160 0 0 1 220.0 300.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="211.9" y="345.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lib</text>
+<text x="302.7" y="320.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">1</text>
+<path d="M241.4 380.0 A160 160 0 0 0 300.0 438.6 L349.0 353.7 A62 62 0 0 1 326.3 331.0 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M217.2 394.0 A188 188 0 0 0 286.0 462.8 L300.0 438.6 A160 160 0 0 1 241.4 380.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="257.0" y="423.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sco</text>
+<text x="323.4" y="356.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">2</text>
+<path d="M300.0 438.6 A160 160 0 0 0 380.0 460.0 L380.0 362.0 A62 62 0 0 1 349.0 353.7 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M286.0 462.8 A188 188 0 0 0 380.0 488.0 L380.0 460.0 A160 160 0 0 1 300.0 438.6 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="335.0" y="468.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sag</text>
+<text x="359.3" y="377.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">3</text>
+<path d="M380.0 460.0 A160 160 0 0 0 460.0 438.6 L411.0 353.7 A62 62 0 0 1 380.0 362.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M380.0 488.0 A188 188 0 0 0 474.0 462.8 L460.0 438.6 A160 160 0 0 1 380.0 460.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="425.0" y="468.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cap</text>
+<text x="400.7" y="377.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">4</text>
+<path d="M460.0 438.6 A160 160 0 0 0 518.6 380.0 L433.7 331.0 A62 62 0 0 1 411.0 353.7 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M474.0 462.8 A188 188 0 0 0 542.8 394.0 L518.6 380.0 A160 160 0 0 1 460.0 438.6 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="503.0" y="423.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Aqu</text>
+<text x="436.6" y="356.6" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">5</text>
+<path d="M518.6 380.0 A160 160 0 0 0 540.0 300.0 L442.0 300.0 A62 62 0 0 1 433.7 331.0 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M542.8 394.0 A188 188 0 0 0 568.0 300.0 L540.0 300.0 A160 160 0 0 1 518.6 380.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="548.1" y="345.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Pis</text>
+<text x="457.3" y="320.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">6</text>
+<path d="M540.0 300.0 A160 160 0 0 0 518.6 220.0 L433.7 269.0 A62 62 0 0 1 442.0 300.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M568.0 300.0 A188 188 0 0 0 542.8 206.0 L518.6 220.0 A160 160 0 0 1 540.0 300.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="548.1" y="255.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ari</text>
+<text x="457.3" y="279.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">7</text>
+<path d="M518.6 220.0 A160 160 0 0 0 460.0 161.4 L411.0 246.3 A62 62 0 0 1 433.7 269.0 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M542.8 206.0 A188 188 0 0 0 474.0 137.2 L460.0 161.4 A160 160 0 0 1 518.6 220.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="503.0" y="177.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Tau</text>
+<text x="436.6" y="243.4" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">8</text>
+<path d="M460.0 161.4 A160 160 0 0 0 380.0 140.0 L380.0 238.0 A62 62 0 0 1 411.0 246.3 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M474.0 137.2 A188 188 0 0 0 380.0 112.0 L380.0 140.0 A160 160 0 0 1 460.0 161.4 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="425.0" y="131.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Gem</text>
+<text x="400.7" y="222.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">9</text>
+<path d="M380.0 140.0 A160 160 0 0 0 300.0 161.4 L349.0 246.3 A62 62 0 0 1 380.0 238.0 Z" fill="#1D9E75" fill-opacity="0.55" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M380.0 112.0 A188 188 0 0 0 286.0 137.2 L300.0 161.4 A160 160 0 0 1 380.0 140.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="335.0" y="131.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Can</text>
+<text x="359.3" y="222.7" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">10</text>
+<path d="M300.0 161.4 A160 160 0 0 0 241.4 220.0 L326.3 269.0 A62 62 0 0 1 349.0 246.3 Z" fill="#1D9E75" fill-opacity="0.30" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M286.0 137.2 A188 188 0 0 0 217.2 206.0 L241.4 220.0 A160 160 0 0 1 300.0 161.4 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="257.0" y="177.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Leo</text>
+<text x="323.4" y="243.4" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">11</text>
+<path d="M241.4 220.0 A160 160 0 0 0 220.0 300.0 L318.0 300.0 A62 62 0 0 1 326.3 269.0 Z" fill="#1D9E75" fill-opacity="0.12" stroke="#B4B2A9" stroke-width="1"/>
+<path d="M217.2 206.0 A188 188 0 0 0 192.0 300.0 L220.0 300.0 A160 160 0 0 1 241.4 220.0 Z" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+<text x="211.9" y="255.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Vir</text>
+<text x="302.7" y="279.3" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">12</text>
+<line x1="318.0" y1="300.0" x2="184.0" y2="300.0" stroke="#2C2C2A" stroke-width="3"/>
+<text x="172.0" y="300.0" font-size="14" text-anchor="end" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cusp 1 = 0° Libra</text>
+<line x1="380.0" y1="362.0" x2="380.0" y2="496.0" stroke="#2C2C2A" stroke-width="3"/>
+<text x="380.0" y="522.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cusp 4 = 0° Capricorn</text>
+<line x1="442.0" y1="300.0" x2="576.0" y2="300.0" stroke="#2C2C2A" stroke-width="3"/>
+<text x="588.0" y="300.0" font-size="14" text-anchor="start" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cusp 7 = 0° Aries</text>
+<line x1="380.0" y1="238.0" x2="380.0" y2="104.0" stroke="#2C2C2A" stroke-width="3"/>
+<text x="380.0" y="78.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cusp 10 = 0° Cancer</text>
+<line x1="290.1" y1="343.8" x2="203.8" y2="385.9" stroke="#BA7517" stroke-width="3.5"/>
+<text x="187.7" y="393.8" font-size="13" text-anchor="end" font-weight="bold" fill="#BA7517" dominant-baseline="central">Asc ≈ 26° Libra</text>
+<line x1="336.2" y1="210.1" x2="294.1" y2="123.8" stroke="#BA7517" stroke-width="3.5"/>
+<text x="286.2" y="107.7" font-size="13" text-anchor="end" font-weight="bold" fill="#BA7517" dominant-baseline="central">MC ≈ 26° Cancer</text>
+<line x1="469.9" y1="256.2" x2="556.2" y2="214.1" stroke="#BA7517" stroke-width="3.5"/>
+<text x="572.3" y="206.2" font-size="13" text-anchor="start" font-weight="bold" fill="#BA7517" dominant-baseline="central">Dsc ≈ 26° Aries</text>
+<line x1="423.8" y1="389.9" x2="465.9" y2="476.2" stroke="#BA7517" stroke-width="3.5"/>
+<text x="473.8" y="492.3" font-size="13" text-anchor="start" font-weight="bold" fill="#BA7517" dominant-baseline="central">IC ≈ 26° Capricorn</text>
+<text x="380.0" y="560.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Vạch đen = cusp (ranh giới sign). Vạch cam = Asc, MC, Dsc, IC: nằm BÊN TRONG house, không phải cusp.</text>
+<text x="380.0" y="584.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Đậm = angular, vừa = succedent, nhạt = cadent. Độ của các góc là ước lượng từ hình phần mềm.</text>
+</svg>
