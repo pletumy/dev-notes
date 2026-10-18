@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 780" width="760" height="780" font-family="Helvetica, Arial, sans-serif">
+<defs></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="380.0" y="28.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Giới tính của 12 sign: nam (lửa, khí) và nữ (đất, nước) xen kẽ</text>
+<path d="M145.0 385.0 A235 235 0 0 0 176.5 502.5 L293.4 435.0 A100 100 0 0 1 280.0 385.0 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="175.2" y="439.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ari</text>
+<text x="210.0" y="430.6" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Aries</text>
+<text x="260.2" y="417.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lửa</text>
+<path d="M176.5 502.5 A235 235 0 0 0 262.5 588.5 L330.0 471.6 A100 100 0 0 1 293.4 435.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="230.1" y="534.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Tau</text>
+<text x="255.5" y="509.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Taurus</text>
+<text x="292.3" y="472.7" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Đất</text>
+<path d="M262.5 588.5 A235 235 0 0 0 380.0 620.0 L380.0 485.0 A100 100 0 0 1 330.0 471.6 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="325.1" y="589.8" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Gem</text>
+<text x="334.4" y="555.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Gemini</text>
+<text x="347.9" y="504.8" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Khí</text>
+<path d="M380.0 620.0 A235 235 0 0 0 497.5 588.5 L430.0 471.6 A100 100 0 0 1 380.0 485.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="434.9" y="589.8" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Can</text>
+<text x="425.6" y="555.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Cancer</text>
+<text x="412.1" y="504.8" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Nước</text>
+<path d="M497.5 588.5 A235 235 0 0 0 583.5 502.5 L466.6 435.0 A100 100 0 0 1 430.0 471.6 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="529.9" y="534.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Leo</text>
+<text x="504.5" y="509.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Leo</text>
+<text x="467.7" y="472.7" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lửa</text>
+<path d="M583.5 502.5 A235 235 0 0 0 615.0 385.0 L480.0 385.0 A100 100 0 0 1 466.6 435.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="584.8" y="439.9" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Vir</text>
+<text x="550.0" y="430.6" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Virgo</text>
+<text x="499.8" y="417.1" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Đất</text>
+<path d="M615.0 385.0 A235 235 0 0 0 583.5 267.5 L466.6 335.0 A100 100 0 0 1 480.0 385.0 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="584.8" y="330.1" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lib</text>
+<text x="550.0" y="339.4" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Libra</text>
+<text x="499.8" y="352.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Khí</text>
+<path d="M583.5 267.5 A235 235 0 0 0 497.5 181.5 L430.0 298.4 A100 100 0 0 1 466.6 335.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="529.9" y="235.1" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sco</text>
+<text x="504.5" y="260.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Scorpio</text>
+<text x="467.7" y="297.3" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Nước</text>
+<path d="M497.5 181.5 A235 235 0 0 0 380.0 150.0 L380.0 285.0 A100 100 0 0 1 430.0 298.4 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="434.9" y="180.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sag</text>
+<text x="425.6" y="215.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Sagittarius</text>
+<text x="412.1" y="265.2" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lửa</text>
+<path d="M380.0 150.0 A235 235 0 0 0 262.5 181.5 L330.0 298.4 A100 100 0 0 1 380.0 285.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="325.1" y="180.2" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cap</text>
+<text x="334.4" y="215.0" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Capricorn</text>
+<text x="347.9" y="265.2" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Đất</text>
+<path d="M262.5 181.5 A235 235 0 0 0 176.5 267.5 L293.4 335.0 A100 100 0 0 1 330.0 298.4 Z" fill="#F5C4B3" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="230.1" y="235.1" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Aqu</text>
+<text x="255.5" y="260.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Aquarius</text>
+<text x="292.3" y="297.3" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Khí</text>
+<path d="M176.5 267.5 A235 235 0 0 0 145.0 385.0 L280.0 385.0 A100 100 0 0 1 293.4 335.0 Z" fill="#B5D4F4" stroke="#B4B2A9" stroke-width="1.2"/>
+<text x="175.2" y="330.1" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Pis</text>
+<text x="210.0" y="339.4" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Pisces</text>
+<text x="260.2" y="352.9" font-size="13" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Nước</text>
+<circle cx="380" cy="385" r="92" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="380.0" y="367.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Nam = lửa + khí</text>
+<text x="380.0" y="389.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Nữ = đất + nước</text>
+<text x="380.0" y="411.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Xen kẽ từ Aries</text>
+<rect x="150" y="681" width="18" height="18" fill="#F5C4B3" stroke="#B4B2A9"/>
+<text x="176.0" y="690.0" font-size="14" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Sign NAM (masculine)</text>
+<rect x="420" y="681" width="18" height="18" fill="#B5D4F4" stroke="#B4B2A9"/>
+<text x="446.0" y="690.0" font-size="14" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Sign NỮ (feminine)</text>
+<text x="380.0" y="730.0" font-size="14" text-anchor="middle" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Hành tinh nam hoạt động đúng bản chất hơn ở sign nam, hành tinh nữ ở sign nữ.</text>
+<text x="380.0" y="754.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Đây là điều kiện số 1 và quan trọng nhất trong 4 điều kiện đổi giới tính của hành tinh.</text>
+</svg>
