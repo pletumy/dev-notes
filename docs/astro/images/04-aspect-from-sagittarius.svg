@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 680" width="760" height="680" font-family="Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="380.0" y="24.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Aspect theo whole sign: nhìn từ Sagittarius</text>
+<path d="M165.0 275.0 A215 215 0 0 0 193.8 382.5 L321.1 309.0 A68 68 0 0 1 312.0 275.0 Z" fill="#9FE1CB" stroke="#B4B2A9" stroke-width="1"/>
+<text x="186.8" y="326.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Ari</text>
+<text x="229.3" y="315.4" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">trine</text>
+<path d="M193.8 382.5 A215 215 0 0 0 272.5 461.2 L346.0 333.9 A68 68 0 0 1 321.1 309.0 Z" fill="#E8E6DF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="238.6" y="416.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Tau</text>
+<text x="269.7" y="385.3" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">không thấy</text>
+<path d="M272.5 461.2 A215 215 0 0 0 380.0 490.0 L380.0 343.0 A68 68 0 0 1 346.0 333.9 Z" fill="#F7C1C1" stroke="#B4B2A9" stroke-width="1"/>
+<text x="328.2" y="468.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Gem</text>
+<text x="339.6" y="425.7" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">đối</text>
+<text x="352.6" y="377.4" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Saturn</text>
+<path d="M380.0 490.0 A215 215 0 0 0 487.5 461.2 L414.0 333.9 A68 68 0 0 1 380.0 343.0 Z" fill="#E8E6DF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="431.8" y="468.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Can</text>
+<text x="420.4" y="425.7" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">không thấy</text>
+<path d="M487.5 461.2 A215 215 0 0 0 566.2 382.5 L438.9 309.0 A68 68 0 0 1 414.0 333.9 Z" fill="#9FE1CB" stroke="#B4B2A9" stroke-width="1"/>
+<text x="521.4" y="416.4" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Leo</text>
+<text x="490.3" y="385.3" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">trine</text>
+<text x="455.0" y="350.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Jupiter</text>
+<path d="M566.2 382.5 A215 215 0 0 0 595.0 275.0 L448.0 275.0 A68 68 0 0 1 438.9 309.0 Z" fill="#F7C1C1" stroke="#B4B2A9" stroke-width="1"/>
+<text x="573.2" y="326.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Vir</text>
+<text x="530.7" y="315.4" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">square</text>
+<path d="M595.0 275.0 A215 215 0 0 0 566.2 167.5 L438.9 241.0 A68 68 0 0 1 448.0 275.0 Z" fill="#9FE1CB" stroke="#B4B2A9" stroke-width="1"/>
+<text x="573.2" y="223.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Lib</text>
+<text x="530.7" y="234.6" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">sextile</text>
+<text x="482.4" y="247.6" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Moon</text>
+<path d="M566.2 167.5 A215 215 0 0 0 487.5 88.8 L414.0 216.1 A68 68 0 0 1 438.9 241.0 Z" fill="#E8E6DF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="521.4" y="133.6" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sco</text>
+<text x="490.3" y="164.7" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">không thấy</text>
+<path d="M487.5 88.8 A215 215 0 0 0 380.0 60.0 L380.0 207.0 A68 68 0 0 1 414.0 216.1 Z" fill="#FAC775" stroke="#BA7517" stroke-width="4"/>
+<text x="431.8" y="81.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sag</text>
+<text x="420.4" y="124.3" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">hợp</text>
+<text x="407.4" y="165.1" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Venus</text>
+<text x="407.4" y="180.1" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Mars</text>
+<path d="M380.0 60.0 A215 215 0 0 0 272.5 88.8 L346.0 216.1 A68 68 0 0 1 380.0 207.0 Z" fill="#E8E6DF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="328.2" y="81.8" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Cap</text>
+<text x="339.6" y="124.3" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">không thấy</text>
+<text x="352.6" y="172.6" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Mercury</text>
+<path d="M272.5 88.8 A215 215 0 0 0 193.8 167.5 L321.1 241.0 A68 68 0 0 1 346.0 216.1 Z" fill="#9FE1CB" stroke="#B4B2A9" stroke-width="1"/>
+<text x="238.6" y="133.6" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Aqu</text>
+<text x="269.7" y="164.7" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">sextile</text>
+<text x="305.0" y="200.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sun</text>
+<path d="M193.8 167.5 A215 215 0 0 0 165.0 275.0 L312.0 275.0 A68 68 0 0 1 321.1 241.0 Z" fill="#F7C1C1" stroke="#B4B2A9" stroke-width="1"/>
+<text x="186.8" y="223.2" font-size="14" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Pis</text>
+<text x="229.3" y="234.6" font-size="12" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">square</text>
+<circle cx="380" cy="275" r="62" fill="#FFFFFF" stroke="#B4B2A9" stroke-width="1"/>
+<text x="380.0" y="267.0" font-size="16" text-anchor="middle" font-weight="bold" fill="#2C2C2A" dominant-baseline="central">Sagittarius</text>
+<text x="380.0" y="289.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">nhìn ra</text>
+<rect x="60" y="532" width="16" height="16" fill="#FAC775" stroke="#B4B2A9"/>
+<text x="84.0" y="540.0" font-size="13" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Cùng sign (hợp)</text>
+<rect x="60" y="558" width="16" height="16" fill="#9FE1CB" stroke="#B4B2A9"/>
+<text x="84.0" y="566.0" font-size="13" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Sextile, trine (hài hòa)</text>
+<rect x="400" y="532" width="16" height="16" fill="#F7C1C1" stroke="#B4B2A9"/>
+<text x="424.0" y="540.0" font-size="13" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Square, đối (căng)</text>
+<rect x="400" y="558" width="16" height="16" fill="#E8E6DF" stroke="#B4B2A9"/>
+<text x="424.0" y="566.0" font-size="13" text-anchor="start" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Cách 1 hoặc 5 sign: không thấy</text>
+<text x="380.0" y="610.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#2C2C2A" dominant-baseline="central">Cách đếm: số sign cách nhau (đếm theo chiều ngắn hơn). 2 = sextile, 3 = square, 4 = trine, 6 = đối.</text>
+<text x="380.0" y="636.0" font-size="13" text-anchor="middle" font-weight="normal" fill="#5F5E5A" dominant-baseline="central">Ví dụ: Venus (Sagittarius) thấy Moon (Libra), Jupiter (Leo), Saturn (Gemini); không thấy Mercury (Capricorn).</text>
+</svg>

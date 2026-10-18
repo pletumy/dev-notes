@@ -56,15 +56,15 @@
     "text": "AWS",
     "items": [
       {
-        "text": "Bastion Host — Kết nối vào mạng nội bộ AWS",
+        "text": "Bastion Host",
         "link": "/notes/aws/bastion_host"
       },
       {
-        "text": "PostgreSQL trên AWS: EC2 vs RDS vs Aurora",
+        "text": "PostgreSQL on AWS: EC2 vs RDS vs Aurora",
         "link": "/notes/aws/aurora_vs_rds"
       },
       {
-        "text": "Các loại Storage trên AWS: S3 vs EBS vs EFS",
+        "text": "S3 vs EBS vs EFS",
         "link": "/notes/aws/storage_types"
       },
       {
@@ -74,6 +74,10 @@
       {
         "text": "Transit Gateway",
         "link": "/notes/aws/transit_gateway"
+      },
+      {
+        "text": "VPC Peering",
+        "link": "/notes/aws/vpc_peering"
       }
     ]
   },
@@ -99,6 +103,72 @@
       {
         "text": "Celestial Condition in Traditional Astrology",
         "link": "/astro/note_4"
+      },
+      {
+        "text": "Planets",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Sun (Mặt Trời)",
+            "link": "/astro/planets/sun"
+          },
+          {
+            "text": "Moon (Mặt Trăng)",
+            "link": "/astro/planets/moon"
+          },
+          {
+            "text": "Mars (Hỏa Tinh)",
+            "link": "/astro/planets/mars"
+          },
+          {
+            "text": "Venus (Kim Tinh)",
+            "link": "/astro/planets/venus"
+          },
+          {
+            "text": "Saturn (Sao Thổ)",
+            "link": "/astro/planets/saturn"
+          }
+        ]
+      },
+      {
+        "text": "Planet classification",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Thần hành tinh, ý nghĩa theo Valens",
+            "link": "/astro/planets/classification/deities-n-valens"
+          },
+          {
+            "text": "Phân loại và tính chất nguyên tố",
+            "link": "/astro/planets/classification/elemental-qualities"
+          },
+          {
+            "text": "Bản chất benefic và malefic",
+            "link": "/astro/planets/classification/benefic-malefic-nature"
+          },
+          {
+            "text": "Cách đọc một hành tinh (sect, 5 lớp)",
+            "link": "/astro/planets/classification/benefic-malefic-sect"
+          },
+          {
+            "text": "Bài tập 1: Đặc điểm các hành tinh",
+            "link": "/astro/planets/classification/ex1"
+          }
+        ]
+      },
+      {
+        "text": "Houses",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Nhà góc, nhà kế, nhà cuối",
+            "link": "/astro/houses/angularity"
+          },
+          {
+            "text": "House system và Aspect",
+            "link": "/astro/houses/house-systems-and-aspects"
+          }
+        ]
       }
     ]
   }

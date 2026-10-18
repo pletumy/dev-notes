@@ -18,6 +18,13 @@
   - Route table của private subnet thì không.
 - **Public IP** được gắn cho các server nằm trong public subnet (thường là frontend).
 - **Private subnet** chứa database và backend — không expose trực tiếp ra Internet.
+- Mỗi subnet được gắn vào đúng 1 route table và đúng 1 NACL. VD:
+  Ví dụ một gói tin đi từ EC2 ở subnet private ra internet:
+
+    + Security group của EC2: có cho phép đi ra không? → OK
+    + NACL của subnet: có cho phép đi ra không? → OK
+    + Route table của subnet: 0.0.0.0/0 thì đi đâu? → tới NAT Gateway
+    + NAT Gateway đưa gói tin ra internet.
 
 ## Network Access Control List (NACL)
 
@@ -35,11 +42,12 @@
 ## Security Group
 
 ![Security Group bảo vệ EC2](./images/Screenshot%202026-10-05%20at%2022.44.35.png)
-
+- instance-level, gắn lên network interface của từn instance,
 - Đóng vai trò **firewall** bảo vệ các component nằm trong subnet (ví dụ: đang bảo vệ một EC2).
 - **Stateful** — ngược lại với NACL: chỉ cần định nghĩa request chiều vào (IN) là đủ, response tự động được cho phép đi ra mà không cần định nghĩa thêm.
 - Chỉ có **allow**, không có **deny** như NACL.
 - Không có khái niệm **order** (thứ tự rule) như NACL.
+- Sec group không có khả năng Deny chỉ có Nacl mới có quyền Deny
 
 ### Ví dụ luồng traffic
 
