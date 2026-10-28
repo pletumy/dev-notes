@@ -11,6 +11,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Astro", link: "/astro/" },
+      { text: "Philosophy", link: "/philosophy/" },
     ],
     sidebar,
     search: {

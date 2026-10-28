@@ -183,6 +183,49 @@
             "link": "/astro/houses/house-systems-and-aspects"
           }
         ]
+      },
+      {
+        "text": "Example Charts: Jackie & Picasso",
+        "link": "/astro/charts/example-charts-note/example-charts-jackie-picasso"
+      },
+      {
+        "text": "Sect: phe ngày và phe đêm",
+        "link": "/astro/sect/sect-note/sect-diurnal-nocturnal"
+      }
+    ]
+  },
+  {
+    "text": "Philosophy",
+    "items": [
+      {
+        "text": "Philosophy",
+        "link": "/philosophy/"
+      },
+      {
+        "text": "The Practicing Stoic — Intro",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Mục lục",
+            "link": "/philosophy/practicing-stoicism/intro/00-muc-luc"
+          },
+          {
+            "text": "Lời tựa",
+            "link": "/philosophy/practicing-stoicism/intro/01-loi-tua"
+          },
+          {
+            "text": "Dẫn nhập",
+            "link": "/philosophy/practicing-stoicism/intro/02-dan-nhap"
+          },
+          {
+            "text": "Áp dụng & insight",
+            "link": "/philosophy/practicing-stoicism/intro/03-ap-dung-va-insight"
+          },
+          {
+            "text": "Từ vựng",
+            "link": "/philosophy/practicing-stoicism/intro/04-tu-vung"
+          }
+        ]
       }
     ]
   }
