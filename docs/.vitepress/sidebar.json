@@ -82,6 +82,48 @@
     ]
   },
   {
+    "text": "Cloud",
+    "items": [
+      {
+        "text": "Cloud",
+        "link": "/cloud/"
+      },
+      {
+        "text": "Hệ phân tán và hệ một máy",
+        "link": "/cloud/distributed-system-vs-single-node"
+      },
+      {
+        "text": "Tách storage và compute trong cloud",
+        "link": "/cloud/storage-vs-compute"
+      },
+      {
+        "text": "Case study timeline kiểu Twitter",
+        "link": "/cloud/twitter-timeline-fan-out"
+      },
+      {
+        "text": "Multitenancy",
+        "link": "/cloud/multitenancy"
+      },
+      {
+        "text": "Vận hành trong thời đại cloud",
+        "link": "/cloud/operation-in-cloud-era"
+      }
+    ]
+  },
+  {
+    "text": "SWE",
+    "items": [
+      {
+        "text": "SWE",
+        "link": "/swe/"
+      },
+      {
+        "text": "Performance: response time, throughput và percentile",
+        "link": "/swe/performance"
+      }
+    ]
+  },
+  {
     "text": "Astro",
     "items": [
       {
@@ -224,6 +266,20 @@
           {
             "text": "Từ vựng",
             "link": "/philosophy/practicing-stoicism/intro/04-tu-vung"
+          }
+        ]
+      },
+      {
+        "text": "The Practicing Stoic — Chương 1: Phán đoán",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Nội dung",
+            "link": "/philosophy/practicing-stoicism/chap-1-judgement/01-noi-dung"
+          },
+          {
+            "text": "Áp dụng",
+            "link": "/philosophy/practicing-stoicism/chap-1-judgement/02-ap-dung"
           }
         ]
       }
