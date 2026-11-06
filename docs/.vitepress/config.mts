@@ -10,6 +10,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
+      { text: "Cloud", link: "/cloud/" },
+      { text: "SWE", link: "/swe/" },
       { text: "Astro", link: "/astro/" },
       { text: "Philosophy", link: "/philosophy/" },
     ],
