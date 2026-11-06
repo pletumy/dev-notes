@@ -180,7 +180,7 @@ Lưu ý: đây là câu hỏi diễn giải, không có đáp án đúng sai. N�
 1. **Đọc theo hàng:** mỗi hành tinh đọc hết 6 mục để thấy "nhân vật" thống nhất.
 2. **Đọc theo cột** (ví dụ chỉ cột Quality): để thấy dải liên tục từ ấm-ẩm đến lạnh-khô.
 3. **Tự viết lại bằng lời của mình** các phần Significations và Reflection. Bài tập của sách có ý "củng cố", nên nên viết lại để nhớ.
-4. **Dùng cùng các file trước:** `planetary-deities-and-valens-meanings.md` (Table 3, 4), `planet-classifications-and-elemental-qualities.md` (Table 5), `benefic-malefic-nature.md` (Table 6).
+4. **Dùng cùng các file trước:** `deities-n-valens.md` (Table 3, 4), `elemental-qualities.md` (Table 5), `benefic-malefic-nature.md` (Table 6).
 
 ---
 

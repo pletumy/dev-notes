@@ -78,7 +78,7 @@ Ví dụ theo sách (Sun 15° Leo = 135°):
 
 Sách nói vùng điều chỉnh kéo dài "tới độ 120 hoặc ngay trước/sau trạm". Mình hiểu hai đầu (trong 15° và quá 120°) là **không còn điều chỉnh**, nhưng sách không nói thẳng điều này trong các trang đã gửi.
 
-**d) Mercury và Venus không bao giờ chạm mốc 120°** [Bổ sung, kiến thức chung]: Mercury luôn ở rất gần Sun (cách tối đa khoảng 28°), Venus khoảng 47°. Nên với hai hành tinh này, vùng điều chỉnh chạy từ 15° tới khoảng cách tối đa của chúng. Chỉ các hành tinh ngoài (Mars, Jupiter, Saturn) mới có thể vượt 120°.
+**d) Mercury và Venus không bao giờ chạm mốc 120°** [Bổ sung, kiến thức chung]: Mercury luôn ở rất gần Sun (cách tối đa khoảng 28°), Venus khoảng 47°. Nên với hai hành tinh này, vùng điều chỉnh chạy từ 15° tới khoảng cách tối đa của chúng. Trong các hành tinh truyền thống, chỉ Mars, Jupiter, Saturn (và Moon, vì khoảng cách tới Sun lên tới 180°) mới có thể vượt 120°.
 
 **e) Hai liên hệ thú vị**
 

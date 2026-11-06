@@ -31,7 +31,7 @@
 ![NACL](./images/Screenshot%202026-10-05%20at%2022.12.18.png)
 
 - NACL là bộ rule áp dụng vào subnet, quy định traffic nào được đi vào/đi ra.
-- **Stateless**: phải định nghĩa rule theo cả hai chiều (IN/OUT) riêng biệt. Ví dụ: nếu chỉ định nghĩa rule cho phép IN ở port 80 mà không định nghĩa OUT cho port 80, request đi vào được nhưng response không đi ra lại được cho client — vì vậy phải định nghĩa cả hai chiều.
+- **Stateless**: phải định nghĩa rule theo cả hai chiều (IN/OUT) riêng biệt. Ví dụ: nếu chỉ định nghĩa rule cho phép IN ở port 80 mà không định nghĩa OUT cho dải ephemeral port (1024–65535), request đi vào được nhưng response không đi ra lại được cho client (response trả về port ephemeral của client, không phải port 80) — vì vậy phải định nghĩa cả hai chiều.
 - Mỗi subnet chỉ được gắn với **1 NACL** tại một thời điểm.
 - Rule có thể là **allow** hoặc **deny** (defined/allowed).
 

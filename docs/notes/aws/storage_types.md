@@ -18,7 +18,7 @@
 ## EBS (Elastic Block Storage)
 
 - Là loại **network-attached storage**, chỉ dùng cho EC2.
-- Mỗi volume EBS chỉ được gắn (attach) vào **1 EC2 tại một thời điểm**.
+- Thông thường mỗi volume EBS chỉ được gắn (attach) vào **1 EC2 tại một thời điểm** (ngoại lệ: io1/io2 hỗ trợ Multi-Attach, cùng AZ, instance Nitro).
 - Bị giới hạn trong **1 Availability Zone** — EBS ở AZ1 chỉ kết nối được với EC2 cũng nằm ở AZ1.
 - Có hai loại chính: **gp** (general purpose) và **io** (dành cho input/output tốc độ cao).
 - Khi tạo một EC2 mới, mặc định sẽ tạo kèm một EBS volume (root volume).

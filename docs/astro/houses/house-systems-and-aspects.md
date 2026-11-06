@@ -9,7 +9,7 @@
 
 1. **Cusp** = điểm bắt đầu của một house. Whole sign: cusp luôn là 0° của một sign. Placidus: cusp nằm ở những độ lẻ.
 2. Cùng một lá số, hai hệ cho **house khác nhau**, nên chủ đề đọc ra khác nhau.
-3. **Aspect giữa hai hành tinh không phụ thuộc hệ house.** Nhưng có hai cách tính aspe◊◊ct: theo sign và theo độ (orb).
+3. **Aspect giữa hai hành tinh không phụ thuộc hệ house.** Nhưng có hai cách tính aspect: theo sign và theo độ (orb).
 4. Mặc định trong các note này: **whole sign**, vì sách của Demetra George dùng whole sign.
 
 ---

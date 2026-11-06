@@ -165,7 +165,7 @@ Lá số mẫu: whole sign, Asc ≈ Libra, lá số đêm. Dignity theo phần m
 | Hành tinh | Yếu tố hỗ trợ | Yếu tố cản trở | Vị trí tạm trên thang |
 |---|---|---|---|
 | **Venus** (benefic) | Đúng phe, thuận hành, mọc trước Sun (cách 46°), trine Jupiter, sextile Moon | Peregrine, bị Saturn đối | Quanh **Tốt** đến **Khá tốt** |
-| **Jupiter** (benefic) | House 11 là joy của Jupiter, sextile Moon, trine Venus | Trái phe, nghịch hành, đối Sun (detriment) | Quanh **Hơi tốt** đến **Tốt** |
+| **Jupiter** (benefic) | House 11 là joy của Jupiter, sextile Moon, trine Venus | Trái phe, nghịch hành, bị Sun (đang detriment ở Aquarius) đối | Quanh **Hơi tốt** đến **Tốt** |
 | **Mars** (malefic) | Đúng phe, thuận hành, mọc trước Sun, hợp Venus, trine Jupiter, sextile Moon | Peregrine, bị Saturn đối | Quanh **Hơi xấu** (tốt hơn mức cơ sở) |
 | **Saturn** (malefic) | Sextile Jupiter, trine Moon | Trái phe, nghịch hành, peregrine, đối Venus và Mars | Quanh **Xấu** đến **Khá xấu** |
 

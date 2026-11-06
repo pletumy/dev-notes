@@ -87,8 +87,8 @@ from slowapi import Limiter
 from slowapi.util import get_remote_address
 from src.core.config import settings
 
-# ElastiCache dùng TLS với self-signed cert của AWS
-# → cần tắt cert verification khi URL là rediss://
+# ElastiCache dùng TLS (rediss://). Nếu gặp lỗi verify (CA bundle cũ / hostname không khớp)
+# có thể tạm tắt verify, nhưng đây là cấu hình KHÔNG an toàn — nên sửa CA bundle thay vì tắt
 _storage_options = {"ssl_cert_reqs": "none"} if settings.REDIS_URL.startswith("rediss://") else {}
 
 limiter = Limiter(
@@ -99,7 +99,7 @@ limiter = Limiter(
 )
 ```
 
-Cái `_storage_options` ở đây xử lý một edge case thực tế: local dev dùng `redis://` bình thường, production dùng AWS ElastiCache với `rediss://` (TLS). Cert của ElastiCache là self-signed, không có trong trust store mặc định → nếu không tắt verify thì sẽ bị lỗi `SSL: CERTIFICATE_VERIFY_FAILED`.
+Cái `_storage_options` ở đây xử lý một edge case thực tế: local dev dùng `redis://` bình thường, production dùng AWS ElastiCache với `rediss://` (TLS). Nếu môi trường có CA bundle cũ hoặc hostname không khớp thì sẽ gặp lỗi `SSL: CERTIFICATE_VERIFY_FAILED`; `ssl_cert_reqs=none` bỏ qua việc verify nên chỉ nên dùng tạm (cert ElastiCache thường verify được qua Amazon Trust Services).
 
 ### 3. Wire vào FastAPI app
 
@@ -121,7 +121,7 @@ app.add_middleware(SlowAPIMiddleware)
 
 ```python
 # src/api/post.py
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, Depends, Request
 from src.core.rate_limit import limiter
 
 @router.get("/", response_model=DefaultResponsePayload)
@@ -160,7 +160,7 @@ async def create_post(request: Request, ...): ...
 
 # Auth — quan trọng nhất, chặt nhất
 @router.get("/auth/login")
-@limiter.limit("20/minute")
+@limiter.limit("10/minute")
 async def oidc_login(request: Request): ...
 
 # Tất cả endpoints còn lại → 300/minute (default)
@@ -177,7 +177,7 @@ echo "GET https://api.test.com/api/v1/posts/" | vegeta attack -rate=200/s -durat
 ```
 > ⚠️ Ảnh thiếu: **Screenshot 2026-05-23 at 14.29.27.png** (không có trong dữ liệu export, cần upload lại thủ công)
 
-**100 requests được phục vụ, 1857 bị chặn với 429.** Đúng bằng limit 100/minute.
+**Chỉ 100 requests được phục vụ, phần còn lại bị chặn với 429 (số liệu trong ảnh gần đúng).** Đúng bằng limit 100/minute.
 
 
 Nhưng để ý: **p50 vẫn là 10.6s**. App trả 429 đúng rồi, nhưng response vẫn chậm. Lý do là Cloudflare đang để requests trong queue trước khi forward về ELB — app xử lý 429 chỉ ~1ms, nhưng request đã nằm chờ ~10s trong Cloudflare queue.

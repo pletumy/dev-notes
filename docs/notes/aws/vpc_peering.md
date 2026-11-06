@@ -11,7 +11,7 @@
 => VPC Peering
 
 ## prerequisite:
-- hai dải CIDR ko được overlap nhau, vd VPC A có CIDR là 10.1.0.0/8 -> sẽ ko peering được với VPC B cũng có 10.1.0.0/8
+- hai dải CIDR ko được overlap nhau, vd VPC A có CIDR là 10.0.0.0/16 -> sẽ ko peering được với VPC B cũng có 10.0.0.0/16
 - ko có tính chất bắc cầu =)
 eg: ![VPC peering không bắc cầu](./images/vpc-peering-non-transitive.png)
 - công thức tính số lượng peering dựa trên số lượng VPC: n*(n-1)/2

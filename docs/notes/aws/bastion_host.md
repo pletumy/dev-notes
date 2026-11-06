@@ -39,7 +39,7 @@ Khi chạy lệnh:
 ssh -L 5433:rds-host:5432 user@bastion -N
 ```
 
-Máy tính của bạn sẽ lắng nghe port `5432`. Mọi kết nối tới `localhost:5432` được SSH tunnel chuyển tiếp tới `rds-host:5432` — **thông qua** bastion, từ góc nhìn của mạng nội bộ AWS.
+Máy tính của bạn sẽ lắng nghe port `5433`. Mọi kết nối tới `localhost:5433` được SSH tunnel chuyển tiếp tới `rds-host:5432` — **thông qua** bastion, từ góc nhìn của mạng nội bộ AWS.
 
 ## Security Group cần cấu hình như thế nào?
 
@@ -85,10 +85,10 @@ Host bastion
     IdentityFile ~/.ssh/myphan.pem
 
 Host rds-tunnel
-    HostName localhost
-    Port 5433
+    HostName <bastion-public-dns>
+    User ec2-user
+    IdentityFile ~/.ssh/<key>.pem
     LocalForward 5433 my-rds.xxx.rds.amazonaws.com:5432
-    ProxyJump bastion
 ```
 
 Sau đó chỉ cần `ssh rds-tunnel -N` là xong.

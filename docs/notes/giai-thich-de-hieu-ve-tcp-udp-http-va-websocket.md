@@ -4,7 +4,7 @@ description: "Lấy cảm hứng từ bài viết hay ho của Naman Sisodia tr�
 date: 2026-06-06
 ---
 
-> **Bài viết này lấy cảm hứng từ bài viết hay ho của Naman Sisodia trên Medium:** [Understanding TCP, UDP, HTTP, And WebSocket Concepts PART - 1](https://any-one-can-code.medium.com/understanding-tcp-udp-http-and-websocket-concepts-part-1-499f9f751c54). Mình đọc bài này và thấy cách giải thích khá là rõ ràng, dễ hiểu, ko bị quá ngộp các thuật ngữ technical, nên quyết định viết lại bằng tiếng Việt, mở rộng thêm phần HTTP và WebSocket để cho trọn bộ. Mọi công nhận xứng đáng đều thuộc về tác giả gốc!
+> **Bài viết này lấy cảm hứng từ bài viết hay ho của Naman Sisodia trên Medium:** [Understanding TCP, UDP, HTTP, And WebSocket Concepts PART - 1](https://any-one-can-code.medium.com/understanding-tcp-udp-http-and-websocket-concepts-part-1-499f9f751c54). Mình đọc bài này và thấy cách giải thích khá là rõ ràng, dễ hiểu, ko bị quá ngộp các thuật ngữ technical, nên quyết định viết lại bằng tiếng Việt. Mọi công nhận xứng đáng đều thuộc về tác giả gốc!
 > ⚠️ Ảnh thiếu: **1_GEUhDCOVJVC1dGGBmFcg1Q (1).jpg** (không có trong dữ liệu export, cần upload lại thủ công)
 
 
@@ -37,7 +37,7 @@ Nghe có vẻ ko ổn lắm nhưng UDP lại cực kỳ hữu ích vì một lý
 UDP được dùng ở đâu?
 
 - Game online/multiplayer
-- Video streaming / YouTube
+- Live streaming / video call (RTP, WebRTC, QUIC)
 - VoIP (gọi điện qua internet)
 - DNS
 
@@ -72,7 +72,6 @@ Cả hai bây giờ đã **xác nhận lẫn nhau** — ai cũng biết đối p
 - Email (SMTP, IMAP)
 - Truyền file (FTP)
 - SSH
-Không cần dùng tool gì cho cái này — đây là đoạn dịch:
 
 **UDP hay TCP — cái nào tốt hơn?**
 

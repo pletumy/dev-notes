@@ -72,7 +72,7 @@ Tụi mình thử dựng một proxy TCP tự viết. Nó chạy được! Cho �
 
 ### Ngã rẽ 3: Gặp được Envoy
 
-Và rồi tụi mình tìm đến [Envoy](https://www.envoyproxy.io/) — một con proxy vốn sinh ra cho thế giới microservice. Điểm hay của nó là **xDS** (dynamic configuration): bạn có thể đẩy cấu hình mới vào cho Envoy trong lúc nó đang chạy, và nó tự cập nhật — không restart, không reload, không đứt kết nối.
+Và rồi tụi mình tìm đến [Envoy](https://www.envoyproxy.io/) — một con proxy vốn sinh ra cho thế giới microservice. Điểm hay của nó là **xDS** (dynamic configuration): bạn có thể đẩy cấu hình mới vào cho Envoy trong lúc nó đang chạy, và nó tự cập nhật — không restart, không reload, và không ảnh hưởng các tunnel khác đang chạy.
 
 Đúng là mảnh ghép tụi mình tìm mãi.
 
@@ -95,9 +95,9 @@ Bức tranh toàn cảnh trông như thế này:
 │      Backend API (on bastion)       │
 │  - tunnel registry (SQLite)         │
 │  - acts as xDS control plane        │
-│  - pushes config to Envoy via gRPC  │
+│  - ghi file CDS/LDS (filesystem xDS)│
 └──────────────┬──────────────────────┘
-               │ xDS gRPC
+               │ ghi file CDS/LDS
 ┌──────────────▼──────────────────────┐
 │         Envoy (on bastion)          │
 │  - dynamically updated              │
@@ -157,7 +157,7 @@ Có thay đổi tunnel (tạo / sửa / xoá)
 Backend ghi lại file CDS + LDS YAML
         │
         ▼
-Envoy phát hiện file đổi (qua inotify)
+Envoy phát hiện file đổi (qua inotify, khi file được `mv` đè atomic)
         │
         ▼
 Envoy tự nạp lại config — không downtime, không ai bị đứt
@@ -217,7 +217,7 @@ resources:
 
 Hai file đều có chung dạng `resources` — một danh sách mà mỗi phần tử khai báo `@type` để Envoy biết đang đọc Listener hay Cluster. Listener và cluster được nối với nhau qua cái tên chung (`postgres_tunnel`): listener nói "ai gõ vào port `15432` thì đẩy sang cluster `postgres_tunnel`", còn cluster nói "cluster đó chính là con RDS ở `my-db...:5432`". Thêm một tunnel mới đơn giản là thêm một phần tử nữa vào hai danh sách này.
 
-Đẹp ở chỗ: backend chỉ cần **ghi đè hai file rồi save**. Envoy thấy file đổi là tự đọc lại và áp dụng — không cần ai gõ lệnh reload, không cần SSH vào server, và quan trọng nhất là **không làm rớt kết nối nào đang chạy**.
+Đẹp ở chỗ: backend chỉ cần **ghi file tạm rồi `mv` đè hai file** (atomic rename — ghi đè tại chỗ sẽ không kích hoạt reload). Envoy thấy file đổi là tự đọc lại và áp dụng — không cần ai gõ lệnh reload, không cần SSH vào server, và quan trọng nhất là **không làm rớt kết nối nào đang chạy**.
 
 ---
 

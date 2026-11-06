@@ -48,7 +48,7 @@ Trước khi hydrate xong, giao diện *nhìn* đầy đủ nhưng chưa hoạt 
 
 Có 2 mô hình tùy có bật `cacheComponents` hay không (flag từ Next.js 16+, gộp lại từ 2 flag thử nghiệm cũ `dynamicIO` + `useCache`):
 
-| | Mô hình cũ (mặc định) | `cacheComponents: true` |
+| | Mô hình cũ (Next.js ≤14) | `cacheComponents: true` |
 |---|---|---|
 | Mặc định | fetch() tự động **được cache** | fetch()/data **dynamic**, không cache |
 | Muốn đổi hành vi mặc định | Tắt cache bằng `cache: 'no-store'` hoặc set `revalidate` | Bật cache bằng đánh dấu `'use cache'` (kèm `cacheLife`) |

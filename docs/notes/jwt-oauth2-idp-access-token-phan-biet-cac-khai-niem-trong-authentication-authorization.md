@@ -28,7 +28,7 @@ Form này là của Google, App không quản lý.
 Password đi thẳng vào server Google. App không handle/ ko lưu password của user — đây là điểm mấu chốt của toàn bộ hệ thống.
 
 **⑥ Google trả về Authorization Code**
-Google xác minh xong, nhưng **không trả token ngay**. Thay vào đó Google redirect trình duyệt về App kèm một cái code ngắn, kiểu: `yourapp.com/callback?code=4/0AX4...`. Code này sống khoảng 10 giây, dùng 1 lần.
+Google xác minh xong, nhưng **không trả token ngay**. Thay vào đó Google redirect trình duyệt về App kèm một cái code ngắn, kiểu: `yourapp.com/callback?code=4/0AX4...`. Code này sống rất ngắn (RFC khuyến nghị tối đa ~10 phút), dùng 1 lần.
 
 **⑦ Trình duyệt forward code về App**
 
@@ -36,7 +36,7 @@ Google xác minh xong, nhưng **không trả token ngay**. Thay vào đó Google
 Đây là bước quan trọng nhất. App gọi API Google từ **server của mình** — không qua trình duyệt — kèm theo `code` vừa nhận và `client_secret` của backend. 
 
 **⑨ Google trả token thật**
-Google xác nhận code hợp lệ + secret đúng → trả về `access_token` (để gọi API), `id_token` (JWT chứa tên, email, user ID của bạn), `refresh_token`. Token đi qua kênh server-to-server, không qua trình duyệt.
+Google xác nhận code hợp lệ + secret đúng → trả về `access_token` (để gọi API), `id_token` (JWT chứa tên, email, user ID của bạn), và `refresh_token` (với Google chỉ khi xin `access_type=offline`). Token đi qua kênh server-to-server, không qua trình duyệt.
 
 **⑩ App tạo session, đăng nhập xong**
 App dựa `id_token` ra biết bạn là ai, tạo session, trả cookie về trình duyệt. Từ giờ bạn đã logged in. App có thể định danh được user mà ko cần lưu credentials
